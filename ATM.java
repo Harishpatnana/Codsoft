@@ -30,6 +30,7 @@ class ATM{
   Scanner sc=new Scanner(System.in);
   ATMfunctions atf=new ATMfunctions(5000);
   while(true){
+   System.out.println("Enter your choice:");
   System.out.println("1.check balence");
   System.out.println("2. Deposit");
   System.out.println("3.withdraw");
