@@ -14,6 +14,8 @@ public void deposit(int amount){
   System.out.println("Your money is deposited successfully");
  }
 public void withdraw(int amount){
+   if(amount > balence)
+     System.out.println("Insufficient Balence");
   System.out.println("Withdraw Operation");
   balence=balence-amount;
   System.out.println("Amount withdraw successful");
