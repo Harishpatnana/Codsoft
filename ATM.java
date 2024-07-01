@@ -16,10 +16,12 @@ public void deposit(int amount){
 public void withdraw(int amount){
    if(amount > balence)
      System.out.println("Insufficient Balence");
+ else{
   System.out.println("Withdraw Operation");
   balence=balence-amount;
   System.out.println("Amount withdraw successful");
   }
+}
 }
 class ATM{
   public static void main(String args[]){
